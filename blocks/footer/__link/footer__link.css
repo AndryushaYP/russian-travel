@@ -5,12 +5,16 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 1.1em;
+    transition: opacity 1s ease;
 }
 
-@media screen and (min-width:320px) and (max-width: 767px) {
+.footer__link:hover {
+    opacity: 0.3;
+}
+
+@media screen and (max-width:475px) {
     .footer__link {
         font-size: 24px;
         line-height: 1em;
-        margin-bottom: 32px;
     }
 }

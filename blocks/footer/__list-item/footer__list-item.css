@@ -1,0 +1,13 @@
+.footer__list-item {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 475px) {
+    .footer__list-item {
+        margin-bottom: 32px;
+    }
+
+    .footer__list-item:nth-last-of-type(1) {
+        margin-bottom: 48px;
+    }
+}

@@ -2,9 +2,10 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1.15em;
+    margin: 0;
 }
 
-@media screen and (min-width:320px) and (max-width: 320px) {
+@media screen and (max-width: 475px) {
     .footer__copyright {
         font-size: 14px;
         line-height: 1em;
